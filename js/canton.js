@@ -14,7 +14,7 @@ $.get('js/cantons.json', function(data) {
         $("#canton_flag").attr("src", "img/coat_of_arms/" + c["code"] + ".svg");
         $("#canton_name").html("Kanton " + c["name"]);
         $("#sparpotenzial_title").html("Sparpotenzial im Kanton " + c["name"]);
-        $("#canton_image").css("background-image", 'url("../img/landscape/' + c["code"] + '.jpg")');
+        $("#canton_image").css("background-image", 'url("img/landscape/' + c["code"] + '.jpg")');
 
         selectAdults();
 
