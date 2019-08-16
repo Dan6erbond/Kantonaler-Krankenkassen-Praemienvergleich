@@ -118,13 +118,13 @@ function send() {
     }
 
     var body =
-`<b>E-Mail:</b> ${email}\n
-<b>Telefon Nr:</b> ${phone}\n\n
-<b>Adresse:</b> ${street}, ${zip} ${area}\n
-<b>Kanton:</b> ${c["name"]}\n\n
-<b>Geburtsdatum:</b> ${birthday}\n
-<b>Personen im Haushalt:</b> ${people}\n
-<b>Geschlecht:</b> ${$("#male").is(":checked") ? "Männlich" : "Weiblich"}\n\n
+`<b>E-Mail:</b> ${email}<br>
+<b>Telefon Nr:</b> ${phone}<br><br>
+<b>Adresse:</b> ${street}, ${zip} ${area}<br>
+<b>Kanton:</b> ${c["name"]}<br><br>
+<b>Geburtsdatum:</b> ${birthday}<br>
+<b>Personen im Haushalt:</b> ${people}<br>
+<b>Geschlecht:</b> ${$("#male").is(":checked") ? "Männlich" : "Weiblich"}<br><br>
 <b>Optionen:</b> ${options.join(", ")}`;
 
     if (email.includes("@") && email.split("@")[1].includes(".")) {
