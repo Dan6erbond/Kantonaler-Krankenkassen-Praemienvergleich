@@ -1,0 +1,176 @@
+[{
+    "code": "ZH",
+    "name": "Zürich",
+    "population": 1504346,
+    "adult-prices": "CHF 519.50<br><br>CHF 252.10<br><br>CHF 258.60<br><br>CHF 260.80",
+    "adult-monthly-savings": "263.60",
+    "adult-yearly-savings": "3'198.00",
+    "teen-prices": "CHF 458.80<br><br>CHF 161.60<br><br>CHF 164.60<br><br>CHF 169.60",
+    "teen-monthly-savings": "291.90",
+    "teen-yearly-savings": "3'548.10",
+    "kid-prices": "CHF 158.00<br><br>CHF 73.90<br><br>CHF 76.90<br><br>CHF 75.60",
+    "kid-monthly-savings": "81.90",
+    "kid-yearly-savings": "1'005.40"
+  },
+  {
+    "code": "BE",
+    "name": "Bern",
+    "population": 1031126
+  },
+  {
+    "code": "LU",
+    "name": "Luzern",
+    "population": 406506,
+    "adult-prices": "CHF 432.00<br><br>CHF 243.00<br><br>CHF 243.80<br><br>CHF 245.00",
+    "adult-monthly-savings": "186.10",
+    "adult-yearly-savings": "2'272.90",
+    "teen-prices": "CHF 338.40<br><br>CHF 156.00<br><br>CHF 156.90<br><br>CHF 161.00",
+    "teen-monthly-savings": "181.00",
+    "teen-yearly-savings": "2'198.50",
+    "kid-prices": "CHF 135.20<br><br>CHF 71.00<br><br>CHF 71.70<br><br>CHF 70.50",
+    "kid-monthly-savings": "63.40",
+    "kid-yearly-savings": "769.60"
+  },
+  {
+    "code": "UR",
+    "name": "Uri",
+    "population": 36299
+  },
+  {
+    "code": "SZ",
+    "name": "Schwyz",
+    "population": 157301
+  },
+  {
+    "code": "OW",
+    "name": "Obwalden",
+    "population": 37575
+  },
+  {
+    "code": "NW",
+    "name": "Nidwalden",
+    "population": 42969
+  },
+  {
+    "code": "GL",
+    "name": "Glarus",
+    "population": 40349
+  },
+  {
+    "code": "ZG",
+    "name": "Zug",
+    "population": 125421,
+    "adult-prices": "CHF 454.70<br><br>CHF 229.80<br><br>CHF 233.50<br><br>CHF 238.80",
+    "adult-monthly-savings": "220.60",
+    "adult-yearly-savings": "2'694.50",
+    "teen-prices": "CHF 350.50<br><br>CHF 139.20<br><br>CHF 140.80<br><br>CHF 145.50",
+    "teen-monthly-savings": "206.90",
+    "teen-yearly-savings": "2'519.40",
+    "kid-prices": "CHF 116.00<br><br>CHF 66.90<br><br>CHF 69.50<br><br>CHF 70.80",
+    "kid-monthly-savings": "46.00",
+    "kid-yearly-savings": "599.90"
+  },
+  {
+    "code": "FR",
+    "name": "Fribourg",
+    "population": 315074
+  },
+  {
+    "code": "SO",
+    "name": "Solothurn",
+    "population": 271432,
+    "adult-prices": "CHF 441.60<br><br>CHF 283.20<br><br>CHF 290.10<br><br>CHF 288.20",
+    "adult-monthly-savings": "155.00",
+    "adult-yearly-savings": "1'874.90",
+    "teen-prices": "CHF 370.40<br><br>CHF 193.80<br><br>CHF 197.90<br><br>CHF 197.60",
+    "teen-monthly-savings": "174.90",
+    "teen-yearly-savings": "2'104.40",
+    "kid-prices": "CHF 139.40<br><br>CHF 81.30<br><br>CHF 80.40<br><br>CHF 82.30",
+    "kid-monthly-savings": "59.80",
+    "kid-yearly-savings": "714.30"
+  },
+  {
+    "code": "BS",
+    "name": "Basel-Stadt",
+    "population": 200261
+  },
+  {
+    "code": "BL",
+    "name": "Basel-Landschaft",
+    "population": 288660
+  },
+  {
+    "code": "SH",
+    "name": "Schaffhausen",
+    "population": 81351
+  },
+  {
+    "code": "AR",
+    "name": "Appenzell Ausserrhoden",
+    "population": 55178
+  },
+  {
+    "code": "AI",
+    "name": "Appenzell Innerrhoden",
+    "population": 16105
+  },
+  {
+    "code": "SG",
+    "name": "St. Gallen",
+    "population": 504686
+  },
+  {
+    "code": "GR",
+    "name": "Graubünden",
+    "population": 197888
+  },
+  {
+    "code": "AG",
+    "name": "Aargau",
+    "population": 670988,
+    "adult-prices": "CHF 412.80<br><br>CHF 264.10<br><br>CHF 267.70<br><br>CHF 273.60",
+    "adult-monthly-savings": "143.70",
+    "adult-yearly-savings": "1'751.50",
+    "teen-prices": "CHF 336.10<br><br>CHF 179.50<br><br>CHF 178.70<br><br>CHF 187.30",
+    "teen-monthly-savings": "153.50",
+    "teen-yearly-savings": "1'887.80",
+    "kid-prices": "CHF 130.80<br><br>CHF 69.00<br><br>CHF 74.60<br><br>CHF 79.00",
+    "kid-monthly-savings": "58.40",
+    "kid-yearly-savings": "739.90"
+  },
+  {
+    "code": "TG",
+    "name": "Thurgau",
+    "population": 273801
+  },
+  {
+    "code": "TI",
+    "name": "Ticino",
+    "population": 353709
+  },
+  {
+    "code": "VD",
+    "name": "Vaud",
+    "population": 793129
+  },
+  {
+    "code": "VS",
+    "name": "Valais",
+    "population": 341463
+  },
+  {
+    "code": "NE",
+    "name": "Neuchâtel",
+    "population": 177964
+  },
+  {
+    "code": "GE",
+    "name": "Geneva",
+    "population": 495249
+  },
+  {
+    "code": "JU",
+    "name": "Jura",
+    "population": 73290
+  }
+]

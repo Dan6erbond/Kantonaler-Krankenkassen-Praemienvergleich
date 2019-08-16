@@ -1,0 +1,23 @@
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(235, 235, 235);
+  padding: 15px;
+}
+
+footer div {
+  float: right;
+  margin-right: 40px;
+}
+
+footer div a {
+  width: 100%;
+  color: black;
+  font-size: 14px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}

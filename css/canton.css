@@ -1,0 +1,266 @@
+.canton_logo {
+  margin-right: 25px;
+  display: inline-block;
+  float: right;
+}
+
+.canton_logo div {
+  display: flex;
+}
+
+header .logo {
+  margin: 0 15px 0 25px !important;
+}
+
+#canton_flag {
+  height: 75px;
+  padding: 5px;
+  width: auto;
+}
+
+#canton_name {
+  margin-left: 15px;
+}
+
+.canton_general {
+  display: flex;
+  margin: 5px 15px 0px 15px;
+  flex-wrap: wrap;
+}
+
+#sparen {
+  text-align: right;
+  margin: 25px 25px 0px 25px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+#canton_image {
+  background-image: url("../img/landscape/LU.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 7 1 0;
+  min-width: 600px;
+  height: 20vw;
+  margin: 20px 0 20px 0;
+}
+
+.promises-box {
+  display: flex;
+  flex-direction: column;
+  flex: 4 1 0;
+  padding: 0;
+  min-width: 400px;
+  margin: 20px 0 20px 0;
+}
+
+.promise {
+  margin: 0 10px 0 10px;
+  padding: 0;
+  flex: 1 1 0;
+  border: 1px solid rgb(236, 236, 236);
+  min-height: 75px;
+}
+
+.promise div {
+  display: table;
+  height: 100%;
+  width: 100%;
+  min-height: 70px;
+}
+
+.promise p {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.promise img {
+  height: 50px;
+  margin-bottom: -20px;
+  width: auto;
+  display: inline;
+}
+
+.left .promise img {
+  margin-right: 10px;
+}
+
+.left .promise {
+  border-left: 3px solid red;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.right .promise {
+  border-right: 3px solid red;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.right .promise img {
+  margin-left: 10px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content>div {
+  flex: 1 1 0;
+  min-width: 600px;
+  margin: 25px 25px 0 25px;
+}
+
+.comparison {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.comparison, .comparison th, .comparison td {
+  border: 1px solid rgb(208, 208, 208);
+}
+
+.comparison td {
+  padding: 10px;
+}
+
+.comparison th {
+  padding: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+th.selected {
+  color: black;
+}
+
+.insurances {
+  display: flex;
+  margin: 0 0 10px 0 !important;
+}
+
+.insurances div {
+  flex: 100 1 0;
+}
+
+#prices {
+  flex: 1 1 0;
+  min-width: 100px;
+}
+
+#comparison-title {
+  padding: 0;
+  margin: 0 0 25px 0;
+}
+
+#prices {
+  color: rgb(0, 85, 185);
+  font-weight: bold;
+}
+
+#monthly-savings, #yearly-savings {
+  text-align: right;
+}
+
+#yearly-savings {
+  font-size: 18px;
+  color: rgb(4, 143, 1)
+}
+
+#submit {
+  background-color: rgb(33, 111, 204);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 45%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#submit:hover {
+  background-color: rgb(27, 97, 180);
+}
+
+.double {
+  margin: 0;
+  display: flex;
+}
+
+.double div, .double input {
+  margin: 0 5px 0 0;
+  flex: 1;
+}
+
+form ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+}
+
+form ul li {
+  padding: 15px 0 0 0;
+  width: 100%;
+}
+
+form ul li input {
+  width: 47%;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="email"] {
+  min-height: 25px;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+#insurances {
+  width: 100%;
+}
+
+select {
+  padding: 5px;
+  min-height: 25px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.select-default {
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  form ul {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  form ul li {
+    width: 80vw;
+  }
+  form ul li input {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .right .promise {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .left .promise {
+    text-align: center;
+    padding: 0;
+  }
+}

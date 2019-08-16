@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: Roboto;
+  margin-top: 150px;
+  margin-bottom: 125px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.popup-box {
+  display: none;
+  position: fixed;
+  margin: 0 auto;
+  width: 60vw;
+  max-height: 70vh;
+  display: none;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.popup-box div {
+  width: 50vw;
+  background: rgb(226, 226, 226);
+  padding: 25px;
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.popup-box a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#disclaimer {
+  padding-bottom: 45px;
+}

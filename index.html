@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/kkp.js"></script>
+  <script src="js/w3.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>Kantonaler Krankenkassen Prämienvergleich</title>
+</head>
+
+<body>
+  <div w3-include-html="html/header.html"></div>
+
+  <main>
+    <div class="map_container">
+      <p>Bitte wählen Sie Ihren Wohnkanton aus</p>
+      <svg id="cantons_map" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1052 744">
+        <g id="cantons">
+          <a href="canton.html?canton=ZH">
+            <use xlink:href="img/cantons_symbols.svg#ZH" id="ZH" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=BE">
+            <use xlink:href="img/cantons_symbols.svg#BE" id="BE" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=LU">
+            <use xlink:href="img/cantons_symbols.svg#LU" id="LU" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=UR">
+            <use xlink:href="img/cantons_symbols.svg#UR" id="UR" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=SZ">
+            <use xlink:href="img/cantons_symbols.svg#SZ" id="SZ" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=OW">
+            <use xlink:href="img/cantons_symbols.svg#OW" id="OW" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=NW">
+            <use xlink:href="img/cantons_symbols.svg#NW" id="NW" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=GL">
+            <use xlink:href="img/cantons_symbols.svg#GL" id="GL" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=ZG">
+            <use xlink:href="img/cantons_symbols.svg#ZG" id="ZG" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=SO">
+            <use xlink:href="img/cantons_symbols.svg#SO" id="SO" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=FR">
+            <use xlink:href="img/cantons_symbols.svg#FR" id="FR" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=BS">
+            <use xlink:href="img/cantons_symbols.svg#BS" id="BS" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=BL">
+            <use xlink:href="img/cantons_symbols.svg#BL" id="BL" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=SH">
+            <use xlink:href="img/cantons_symbols.svg#SH" id="SH" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=SG">
+            <use xlink:href="img/cantons_symbols.svg#SG" id="SG" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=AR">
+            <use xlink:href="img/cantons_symbols.svg#AR" id="AR" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=AI">
+            <use xlink:href="img/cantons_symbols.svg#AI" id="AI" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=GR">
+            <use xlink:href="img/cantons_symbols.svg#GR" id="GR" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=AG">
+            <use xlink:href="img/cantons_symbols.svg#AG" id="AG" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=TG">
+            <use xlink:href="img/cantons_symbols.svg#TG" id="TG" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=TI">
+            <use xlink:href="img/cantons_symbols.svg#TI" id="TI" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=VD">
+            <use xlink:href="img/cantons_symbols.svg#VD" id="VD" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=VS">
+            <use xlink:href="img/cantons_symbols.svg#VS" id="VS" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=NE">
+            <use xlink:href="img/cantons_symbols.svg#NE" id="NE" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=GE">
+            <use xlink:href="img/cantons_symbols.svg#GE" id="GE" class="canton"></use>
+          </a>
+          <a href="canton.html?canton=JU">
+            <use xlink:href="img/cantons_symbols.svg#JU" id="JU" class="canton"></use>
+          </a>
+        </g>
+        <g id="International_borders" style="display:inline">
+          <use xlink:href="img/cantons_symbols.svg#path3629" id="path3629"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3642" id="path3642"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3640" id="path3640"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3649" id="path3649"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3655" id="path3655"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3660" id="path3660"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3665" id="path3665"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3670" id="path3670"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3714" id="path3714"></use>
+          <use xlink:href="img/cantons_symbols.svg#campione" id="campione"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3640" id="path3640"></use>
+          <use xlink:href="img/cantons_symbols.svg#path3640" id="path3640"></use>
+        </g>
+      </svg>
+    </div>
+    <div class="canton_dets">
+      <img src="" alt="">
+      <div>
+        <p id="canton_name"></p>
+        <p id="canton_population"></p>
+      </div>
+    </div>
+  </main>
+
+  <div w3-include-html="html/footer.html"></div>
+
+  <div id="contact" class="popup-box" w3-include-html="html/contact.html">
+  </div>
+  <div id="disclaimer" class="popup-box" w3-include-html="html/disclaimer.html">
+  </div>
+
+  <script>
+    w3.includeHTML();
+  </script>
+</body>
+
+</html>

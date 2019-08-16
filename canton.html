@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/kkp.js"></script>
+  <script src="js/w3.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/canton.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/canton.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <title>Kantonaler Krankenkassen Prämienvergleich</title>
+</head>
+
+<body>
+  <header>
+    <div class="line"></div>
+    <br>
+    <div class="canton_logo">
+      <div>
+        <img id="canton_flag" src="" alt="">
+        <p id="canton_name"></p>
+      </div>
+    </div>
+    <a href="/" class="logo">
+      <img src="img/Startseite_bild.jpg" alt="">
+      <p>
+        Kantonaler
+        <br>
+        Krankenkassen
+        <br>
+        Prämienvergleich
+      </p>
+    </a>
+    <br>
+  </header>
+
+  <main>
+    <p id="sparen">Sparen Sie bis zu CHF 100'000.- jährlich!</p>
+
+    <div class="canton_general">
+      <div class="promises-box left">
+        <div class="promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Kostenlos und unverbindlich</p>
+          </div>
+        </div>
+        <br>
+        <div class="promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Individuelle Offerten</p>
+          </div>
+        </div>
+        <br>
+        <div class="promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Unkomplizierter Ablauf</p>
+          </div>
+        </div>
+      </div>
+      <div id="canton_image">
+
+      </div>
+      <div class="promises-box right">
+        <div class="promise">
+          <div>
+            <p>Grosses Sparpotenzial<img src="img/check.jpg" alt=""></p>
+          </div>
+        </div>
+        <br>
+        <div class="promise">
+          <div>
+            <p>Garantierte Transparenz<img src="img/check.jpg" alt=""></p>
+          </div>
+        </div>
+        <br>
+        <div class="promise">
+          <div>
+            <p>VBV-zert. Ansprechspartner<img src="img/check.jpg" alt=""></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div>
+        <p id="sparpotenzial_title">Sparpotenzial im Kanton Zürich</p>
+        <table class="comparison">
+          <tr>
+            <th class="selected" id="button_adults" onclick="selectAdults();">Erwachsene</th>
+            <th id="button_teens" onclick="selectTeens();">Jugendliche</th>
+            <th id="button_kids" onclick="selectKids();">Kinder</th>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p id="comparison-title"><b>Erwachsene ab 26 Jahren:</b></p>
+              <div class="insurances">
+                <div>
+                  Teuerste Krankenversicherung
+                  <br>
+                  <br>
+                  Günstigste Krankenversicherung
+                  <br>
+                  <br>
+                  2. Günstigste Krankenversicherung
+                  <br>
+                  <br>
+                  3. Günstigste Krankenversicherung
+                </div>
+                <div id="prices">
+                  CHF 400.00
+                  <br>
+                  <br>
+                  CHF 200.00
+                  <br>
+                  <br>
+                  CHF 250.00
+                  <br>
+                  <br>
+                  CHF 300.00
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" id="monthly-savings">Monatliches Sparpotenzial: <b>CHF 100.00</b></td>
+          </tr>
+          <tr>
+            <td colspan="3" id="yearly-savings">Jährliches Sparpotenzial: <b>CHF 2'000.00</b></td>
+          </tr>
+        </table>
+        <p style="font-size: 12px;" id="franchise">Berechnung mit CHF 1'500.00 Franchise, ohne Unfalldeckung.</p>
+        <br>
+        <p>
+          <b style="font-size: 20px;">Kantonalekrankenversicherung hilft Ihnen</b>
+          <br>
+          <br>
+          Vergleichen Sie jetzt viele Angebote, verschiedene Prämien sowie Rabatte.
+          Somit erhalten Sie garantiert einen transparenten Marktüberblick.
+        </p>
+      </div>
+      <div>
+        <p>
+          Innerhalb von <b>24h</b> erhalten Sie von unserem VBV-Zertifiziertem Expertenteam Ihr individuelles Angebot.
+          <br>
+          <br>
+          <i style="font-size: 20px;">Was ist Ihnen wichtig?</i>
+        </p>
+        <form onsubmit="send();return false;">
+          <div class="double" style="margin-left: 5px;">
+            <div>
+              <input type="checkbox" id="cheap-offer" value="cheap-offer"> Günstige Prämien
+              <br>
+              <input type="checkbox" id="free-doctor" value="free-doctor"> Freie Arztwahl
+              <br>
+              <input type="checkbox" id="additional-insurance" value="additional-insurance"> Zusatzversicherung
+              <br>
+              <input type="checkbox" id="private" value="private"> Halbprivat oder Privat
+            </div>
+            <div>
+              <input type="checkbox" id="alternative-medicine" value="alternative-medicine"> Alternativ-Medizin
+              <br>
+              <input type="checkbox" id="sports" value="sports"> Sport & Fitness
+              <br>
+              <input type="checkbox" id="family-rebates" value="family-rebates"> Rabatte für Familien
+              <br>
+              <input type="checkbox" id="dental" value="dental"> Zahnversicherung
+            </div>
+          </div>
+          <br>
+          <div class="sex">
+            <input type="radio" id="male" name="gender" value="male" required> Herr
+            <input type="radio" id="female" name="gender" value="female" required> Frau
+          </div>
+          <ul>
+            <li>
+              <input type="text" id="first-name" value="" placeholder="Vorname" required>
+              <input type="text" id="last-name" value="" placeholder="Nachname" required>
+            </li>
+            <li>
+              <input type="text" id="street" value="" placeholder="Strasse" required>
+              <input style="width: 22.6%;" type="number" id="zip" value="" placeholder="PLZ" required>
+              <input style="width: 22.6%;" type="text" id="area" value="" placeholder="Ort" required>
+            </li>
+            <li>
+              <input type="text" id="phone" value="" placeholder="Telefon" required>
+              <input type="email" id="email" value="" placeholder="E-mail" required>
+            </li>
+            <li>
+              <input type="date" id="birthday" value="" placeholder="Geburtsdatum" required>
+              <input type="number" id="people" value="" placeholder="Anzahl Personen" required>
+            </li>
+          </ul>
+          <br>
+          <select style="margin-left: 5px;min-width: 250px;" id="current-insurance" required>
+            <option value="" disabled selected class="select-default">Aktuelle Krankenkasse</option>
+            <option value="Keine">Keine</option>
+            <option value="AMB">AMB</option>
+            <option value="Agrisano">Agrisano</option>
+            <option value="Aquilana">Aquilana</option>
+            <option value="Arcosana">Arcosana</option>
+            <option value="Assura">Assura</option>
+            <option value="Atupri">Atupri</option>
+            <option value="Avanex">Avanex</option>
+            <option value="Avenir">Avenir</option>
+            <option value="Birchmeier">Birchmeier</option>
+            <option value="CSS">CSS</option>
+            <option value="Compact">Compact</option>
+            <option value="Concordia">Concordia</option>
+            <option value="ÖKK">ÖKK</option>
+            <option value="EGK">EGK</option>
+            <option value="Easy Sana">Easy Sana</option>
+            <option value="Einsiedeln">Einsiedeln</option>
+            <option value="Flaachtal">Flaachtal</option>
+            <option value="Galenos">Galenos</option>
+            <option value="Glarner">Glarner</option>
+            <option value="Groupe Mutuel">Groupe Mutuel</option>
+            <option value="Helsana">Helsana</option>
+            <option value="Ingenbohl">Ingenbohl</option>
+            <option value="Innova">Innova</option>
+            <option value="Intras">Intras</option>
+            <option value="KPT / CPT">KPT / CPT</option>
+            <option value="Klug">Klug</option>
+            <option value="Kmu">Kmu</option>
+            <option value="Kolping">Kolping</option>
+            <option value="Lumneziana">Lumneziana</option>
+            <option value="Luzerner Hinterland">Luzerner Hinterland</option>
+            <option value="Philos">Philos</option>
+            <option value="Progrès">Progrès</option>
+            <option value="Provita">Provita</option>
+            <option value="Rhenusana">Rhenusana</option>
+            <option value="SLKK">SLKK</option>
+            <option value="Sana24">Sana24</option>
+            <option value="Sanagate">Sanagate</option>
+            <option value="Sanavals">Sanavals</option>
+            <option value="Sanitas">Sanitas</option>
+            <option value="Sansan">Sansan</option>
+            <option value="Simplon">Simplon</option>
+            <option value="Sodalis">Sodalis</option>
+            <option value="Steffisburg">Steffisburg</option>
+            <option value="Stoffel">Stoffel</option>
+            <option value="Sumiswalder">Sumiswalder</option>
+            <option value="Supra">Supra</option>
+            <option value="Swica">Swica</option>
+            <option value="Sympany">Sympany</option>
+            <option value="Turbenthal">Turbenthal</option>
+            <option value="Visana">Visana</option>
+          </select>
+          <input type="submit" id="submit" value="Offerte anfordern">
+          <!--<a id="submit" onclick="send()">Jetzt Angebot anfordern</a>-->
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <div w3-include-html="html/footer.html"></div>
+
+  <div id="contact" class="popup-box" w3-include-html="html/contact.html">
+  </div>
+  <div id="disclaimer" class="popup-box" w3-include-html="html/disclaimer.html">
+  </div>
+
+  <script>
+    w3.includeHTML();
+  </script>
+</body>
+
+</html>
