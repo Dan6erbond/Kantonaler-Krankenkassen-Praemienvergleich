@@ -1,9 +1,7 @@
-
 #cantons_map {
   /*width: 1052px;
   height: 744px;*/
-  height: 95%;
-  min-width: 600px;
+  height: 35vh;
   margin: 0 auto;
   display: block;
 }
@@ -30,10 +28,8 @@
 }
 
 .map_container {
-  height: 40vw;
   width: 100%;
   padding: 0;
-  padding-top: 25px;
 }
 
 .map_container p {
@@ -47,22 +43,45 @@
 #canton_name, #canton_population {
   font-size: 16px;
   color: rgb(80, 80, 80);
-  margin: 15px 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
 .canton_dets {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: auto;
+  display: table;
+  margin: 0 auto;
 }
 
-.canton_dets div {
+.canton_text_container {
+  display: inline-block;
+}
+
+.canton_text {
   padding-left: 25px;
-  width: 350px;
+}
+
+.canton_text p {
+  font-weight: 400;
+  display: table;
+  margin: auto;
 }
 
 .canton_dets img {
-  padding-left: 200px;
   height: 100px;
   width: auto;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+  .map_container p {
+    font-size: 20px;
+  }
+
+  #canton_name, #canton_population {
+    font-size: 14px;
+  }
+
+  .canton_dets img {
+    height: 85px;
+  }
 }

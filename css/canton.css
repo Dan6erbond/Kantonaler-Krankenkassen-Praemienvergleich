@@ -41,7 +41,7 @@ header .logo {
   background-position: center;
   background-repeat: no-repeat;
   flex: 7 1 0;
-  min-width: 600px;
+  min-width: 400px;
   height: 20vw;
   margin: 20px 0 20px 0;
 }
@@ -111,7 +111,7 @@ header .logo {
 
 .main-content>div {
   flex: 1 1 0;
-  min-width: 600px;
+  min-width: 400px;
   margin: 25px 25px 0 25px;
 }
 
@@ -144,13 +144,10 @@ th.selected {
   margin: 0 0 10px 0 !important;
 }
 
-.insurances div {
-  flex: 100 1 0;
-}
-
 #prices {
   flex: 1 1 0;
   min-width: 100px;
+  text-align: right;
 }
 
 #comparison-title {
@@ -262,5 +259,9 @@ select {
   .left .promise {
     text-align: center;
     padding: 0;
+  }
+
+  #canton_image {
+    height: 35vw;
   }
 }
