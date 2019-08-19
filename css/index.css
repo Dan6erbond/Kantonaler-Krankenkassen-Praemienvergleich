@@ -75,13 +75,12 @@
 .cantons_mobile {
   display: none;
   margin: 0 auto;
-  max-width: 410px;
+  max-width: 70%;
 }
 
 .cantons_mobile ul {
   list-style: none;
   padding: 0;
-  margin: 0 0 0 25px;
 }
 
 .cantons_mobile img {
@@ -96,9 +95,9 @@
 }
 
 .cantons_mobile li {
-  width: 400px;
+  width: 85%;
   padding: 15px;
-  margin: 0 20px 20px 0;
+  margin: 0 15px 15px 15px;
   border: 3px solid rgb(163, 163, 163);
   border-radius: 5px;
   display: inline-block;
@@ -132,7 +131,6 @@
   }
 
   .cantons_mobile {
-    display: flex;
-    justify-content: center;
+    display: block;
   }
 }
