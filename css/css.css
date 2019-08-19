@@ -2,8 +2,10 @@
 
 body {
   font-family: Roboto;
+  margin: 0 auto;
   margin-top: 150px;
   margin-bottom: 125px;
+  max-width: 1600px;
 }
 
 a {

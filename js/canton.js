@@ -16,6 +16,8 @@ $.get('js/cantons.json', function(data) {
         $("#sparpotenzial_title").html("Sparpotenzial im Kanton " + c["name"]);
         $("#canton_image").css("background-image", 'url("img/landscape/' + c["code"] + '.jpg")');
 
+        $("#sparen").html(`Sparen Sie bis zu CHF ${c["adult-yearly-savings"]} jährlich!`)
+
         selectAdults();
 
         canton_found = true;
@@ -35,7 +37,7 @@ function selectAdults() {
   $("#button_teens").removeClass("selected");
   $("#button_kids").removeClass("selected");
 
-  $("#comparison-title").html("<b>Erwachsene ab 26 Jahren:</b>");
+  $("#comparison-title").html("<b>Erwachsene ab 26 Jahre:</b>");
 
   $("#prices").html(c["adult-prices"]);
 
@@ -50,7 +52,7 @@ function selectTeens() {
   $("#button_teens").addClass("selected");
   $("#button_kids").removeClass("selected");
 
-  $("#comparison-title").html("<b>Jugendliche (19-16 Jahre):</b>");
+  $("#comparison-title").html("<b>Jugendliche (19-26 Jahre):</b>");
 
   $("#prices").html(c["teen-prices"]);
 
@@ -72,7 +74,7 @@ function selectKids() {
   $("#monthly-savings").html(`Monatliches Sparpotenzial: <b>CHF ${c["kid-monthly-savings"]}</b>`);
   $("#yearly-savings").html(`Jährliches Sparpotenzial: <b>CHF ${c["kid-yearly-savings"]}</b>`);
 
-  $("#franchise").html("Berechnung mit CHF 0.00 Franchise, ohne Unfalldeckung.");
+  $("#franchise").html("Berechnung mit CHF 0.00 Franchise, mit Unfalldeckung.");
 }
 
 function send() {
@@ -95,20 +97,20 @@ function send() {
     if ($("#cheap-offer").is(":checked")){
       options.push("Günstige Prämien");
     }
-    if ($("#free-doctor").is(":checked")){
-      options.push("Freie Arztwahl");
-    }
-    if ($("#additional-insurance").is(":checked")){
-      options.push("Zusatzversicherung");
-    }
-    if ($("#private").is(":checked")){
-      options.push("Halbprivat oder Privat");
+    if ($("#international-coverage").is(":checked")){
+      options.push("Auslanddeckung");
     }
     if ($("#alternative-medicine").is(":checked")){
-      options.push("Alternativ-Medizin");
+      options.push("Alternativmedizin");
     }
     if ($("#sports").is(":checked")){
       options.push("Sport & Fitness");
+    }
+    if ($("#free-doctor").is(":checked")){
+      options.push("Freie Arztwahl");
+    }
+    if ($("#private").is(":checked")){
+      options.push("Halbprivat oder Privat");
     }
     if ($("#family-rebates").is(":checked")){
       options.push("Rabatte für Familien");
