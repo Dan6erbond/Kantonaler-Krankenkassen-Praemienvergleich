@@ -257,6 +257,10 @@ select {
     margin-top: 25px;
     font-size: 12px;
   }
+
+  header .logo {
+    margin: 0 5px 0 25px !important;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
