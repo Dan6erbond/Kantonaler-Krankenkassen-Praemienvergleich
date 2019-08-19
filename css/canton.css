@@ -239,12 +239,23 @@ select {
     margin-right: 0;
     padding-right: 0;
   }
+
   form ul li {
     width: 80vw;
   }
+
   form ul li input {
     margin-top: 5px;
     width: 100%;
+  }
+
+  #canton_flag {
+    height: 55px;
+  }
+
+  #canton_name {
+    margin-top: 25px;
+    font-size: 12px;
   }
 }
 

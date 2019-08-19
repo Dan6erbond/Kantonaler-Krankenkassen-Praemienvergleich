@@ -32,3 +32,12 @@ header .logo p {
   padding: 0;
   margin: 8px;
 }
+
+@media only screen and (max-width: 700px) {
+  header .logo img {
+    height: 55px;
+  }
+  header .logo p {
+    font-size: 12px;
+  }
+}
