@@ -13,7 +13,7 @@ $.get('js/cantons.json', function(data) {
      var li = $("<li>");
      var img = $("<img>", {src: "img/coat_of_arms/" + canton["code"] + ".svg"});
      var span = $("<span>");
-     span.html("Kanton " + canton["name"]);
+     span.html(canton["name"]);
      li.append(img);
      li.append(span);
      a.append(li);

@@ -88,6 +88,10 @@ header .logo {
   margin-right: 10px;
 }
 
+.left .promise .mobile {
+  margin-left: 10px;
+}
+
 .left .promise {
   border-left: 3px solid green;
   text-align: left;
@@ -243,6 +247,10 @@ select {
   display: none;
 }
 
+#monthly-savings b {
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   form ul {
     margin-right: 0;
@@ -279,6 +287,14 @@ select {
 
   .mobile {
     display: block;
+  }
+
+  .promise img.mobile {
+    display: inline !important;
+  }
+
+  .desktop {
+    display: none !important;
   }
 }
 
