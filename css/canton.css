@@ -186,6 +186,11 @@ th.selected {
   background-color: rgb(27, 97, 180);
 }
 
+#submit:disabled {
+  background-color: rgb(64, 136, 222);
+  color: rgb(226, 226, 226);
+}
+
 .double {
   margin: 0;
   display: flex;
@@ -234,6 +239,10 @@ select {
   color: grey;
 }
 
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   form ul {
     margin-right: 0;
@@ -262,6 +271,14 @@ select {
 
   header .logo {
     margin: 0 5px 0 25px !important;
+  }
+
+  .promises-box.left {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 }
 

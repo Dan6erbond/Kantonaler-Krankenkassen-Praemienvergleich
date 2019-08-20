@@ -141,12 +141,15 @@ function send() {
           function (message) {
             if (message == "OK") {
               alert("Nachricht erfolgreich gesendet!");
+              $("#submit").attr("disabled", true);
+              fbq('track', 'Lead');
             } else {
               alert("Mail konnte nicht abgesendet werden, bitte kontaktieren Sie termine@wds-schweiz.ch.");
               console.log(message);
             }
           });
       } else {
+        $("#submit").attr("disabled", true);
         console.log(`Subject:\n${subject}`);
         console.log(`Body:\n${body}`);
       }

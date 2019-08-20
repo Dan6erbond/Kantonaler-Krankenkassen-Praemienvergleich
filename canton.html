@@ -11,6 +11,32 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="js/canton.js"></script>
 
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '417770058848956');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=417770058848956&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
   <link rel="stylesheet" type="text/css" href="css/css.css">
   <link rel="stylesheet" type="text/css" href="css/canton.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
@@ -67,6 +93,24 @@
 
       </div>
       <div class="promises-box right">
+        <div class="mobile promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Kostenlos und unverbindlich</p>
+          </div>
+        </div>
+        <br>
+        <div class="mobile promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Individuelle Offerten</p>
+          </div>
+        </div>
+        <br>
+        <div class="mobile promise">
+          <div>
+            <p><img src="img/check.jpg" alt="">Unkomplizierter Ablauf</p>
+          </div>
+        </div>
+        <br class="mobile">
         <div class="promise">
           <div>
             <p>Grosses Sparpotenzial<img src="img/check.jpg" alt=""></p>
