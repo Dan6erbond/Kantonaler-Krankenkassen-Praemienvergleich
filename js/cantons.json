@@ -99,7 +99,16 @@
   {
     "code": "GL",
     "name": "Glarus",
-    "population": 40349
+    "population": 40349,
+    "adult-prices": "CHF 420.60<br><br>CHF 232.00<br><br>CHF 242.80<br><br>CHF 243.50",
+    "adult-monthly-savings": "185.00",
+    "adult-yearly-savings": "2'260.80",
+    "teen-prices": "CHF 359.40<br><br>CHF 159.30<br><br>CHF 165.60<br><br>CHF 166.90",
+    "teen-monthly-savings": "198.30",
+    "teen-yearly-savings": "2'389.60",
+    "kid-prices": "CHF 122.90<br><br>CHF 68.40<br><br>CHF 68.70<br><br>CHF 69.80",
+    "kid-monthly-savings": "54.00",
+    "kid-yearly-savings": "669.50"
   },
   {
     "code": "ZG",
@@ -118,7 +127,16 @@
   {
     "code": "FR",
     "name": "Fribourg",
-    "population": 315074
+    "population": 315074,
+    "adult-prices": "CHF 682.10<br><br>CHF 258.50<br><br>CHF 257.30<br><br>CHF 261.70",
+    "adult-monthly-savings": "421.60",
+    "adult-yearly-savings": "5'077.80",
+    "teen-prices": "CHF 494.00<br><br>CHF 179.50<br><br>CHF 179.30<br><br>CHF 182.40",
+    "teen-monthly-savings": "314.80",
+    "teen-yearly-savings": "3'794.00",
+    "kid-prices": "CHF 185.00<br><br>CHF 76.50<br><br>CHF 74.10<br><br>CHF 76.90",
+    "kid-monthly-savings": "107.20",
+    "kid-yearly-savings": "1'298.90"
   },
   {
     "code": "SO",
@@ -179,12 +197,30 @@
   {
     "code": "AR",
     "name": "Appenzell Ausserrhoden",
-    "population": 55178
+    "population": 55178,
+    "adult-prices": "CHF 399.60<br><br>CHF 240.60<br><br>CHF 242.00<br><br>CHF 242.50",
+    "adult-monthly-savings": "156.60",
+    "adult-yearly-savings": "1'923.20",
+    "teen-prices": "CHF 323.40<br><br>CHF 157.80<br><br>CHF 162.70<br><br>CHF 165.50",
+    "teen-monthly-savings": "167.20",
+    "teen-yearly-savings": "2'004.60",
+    "kid-prices": "CHF 121.90<br><br>CHF 69.80<br><br>CHF 68.30<br><br>CHF 69.90",
+    "kid-monthly-savings": "51.50",
+    "kid-yearly-savings": "658.40"
   },
   {
     "code": "AI",
     "name": "Appenzell Innerrhoden",
-    "population": 16105
+    "population": 16105,
+    "adult-prices": "CHF 345.50<br><br>CHF 194.20<br><br>CHF 199.50<br><br>CHF 210.30",
+    "adult-monthly-savings": "149.40",
+    "adult-yearly-savings": "1'805.20",
+    "teen-prices": "CHF 283.80<br><br>CHF 142.20<br><br>CHF 143.10<br><br>CHF 144.60",
+    "teen-monthly-savings": "138.40",
+    "teen-yearly-savings": "1'702.60",
+    "kid-prices": "CHF 111.60<br><br>CHF 63.50<br><br>CHF 62.90<br><br>CHF 62.40",
+    "kid-monthly-savings": "46.40",
+    "kid-yearly-savings": "579.80"
   },
   {
     "code": "SG",
@@ -203,7 +239,16 @@
   {
     "code": "GR",
     "name": "Graubünden",
-    "population": 197888
+    "population": 197888,
+    "adult-prices": "CHF 405.00<br><br>CHF 217.50<br><br>CHF 221.40<br><br>CHF 225.20",
+    "adult-monthly-savings": "183.10",
+    "adult-yearly-savings": "2'220.40",
+    "teen-prices": "CHF 374.80<br><br>CHF 151.80<br><br>CHF 154.20<br><br>CHF 154.90",
+    "teen-monthly-savings": "221.40",
+    "teen-yearly-savings": "2'689.00",
+    "kid-prices": "CHF 138.80<br><br>CHF 63.40<br><br>CHF 63.50<br><br>CHF 68.00",
+    "kid-monthly-savings": "71.30",
+    "kid-yearly-savings": "865.90"
   },
   {
     "code": "AG",
@@ -222,36 +267,99 @@
   {
     "code": "TG",
     "name": "Thurgau",
-    "population": 273801
+    "population": 273801,
+    "adult-prices": "CHF 463.70<br><br>CHF 252.40<br><br>CHF 255.50<br><br>CHF 254.10",
+    "adult-monthly-savings": "207.70",
+    "adult-yearly-savings": "2'533.10",
+    "teen-prices": "CHF 396.40<br><br>CHF 160.20<br><br>CHF 165.00<br><br>CHF 167.30",
+    "teen-monthly-savings": "234.80",
+    "teen-yearly-savings": "2'819.80",
+    "kid-prices": "CHF 131.10<br><br>CHF 72.60<br><br>CHF 73.30<br><br>CHF 75.30",
+    "kid-monthly-savings": "53.90",
+    "kid-yearly-savings": "679.40"
   },
   {
     "code": "TI",
-    "name": "Ticino",
-    "population": 353709
+    "name": "Tessin",
+    "population": 353709,
+    "adult-prices": "CHF 695.80<br><br>CHF 301.10<br><br>CHF 310.40<br><br>CHF 310.80",
+    "adult-monthly-savings": "393.10",
+    "adult-yearly-savings": "4'724.40",
+    "teen-prices": "CHF 507.70<br><br>CHF 196.50<br><br>CHF 196.00<br><br>CHF 200.70",
+    "teen-monthly-savings": "307.90",
+    "teen-yearly-savings": "3'706.50",
+    "kid-prices": "CHF 161.10<br><br>CHF 82.10<br><br>CHF 83.50<br><br>CHF 86.10",
+    "kid-monthly-savings": "78.40",
+    "kid-yearly-savings": "985.80"
   },
   {
     "code": "VD",
-    "name": "Vaud",
-    "population": 793129
+    "name": "Waadt",
+    "population": 793129,
+    "adult-prices": "CHF 696.30<br><br>CHF 325.80<br><br>CHF 329.30<br><br>CHF 330.50",
+    "adult-monthly-savings": "370.70",
+    "adult-yearly-savings": "4'453.40",
+    "teen-prices": "CHF 609.30<br><br>CHF 228.20<br><br>CHF 228.70<br><br>CHF 234.00",
+    "teen-monthly-savings": "383.60",
+    "teen-yearly-savings": "4'616.10",
+    "kid-prices": "CHF 190.50<br><br>CHF 93.40<br><br>CHF 96.90<br><br>CHF 98.10",
+    "kid-monthly-savings": "91.10",
+    "kid-yearly-savings": "1'125.70"
   },
   {
     "code": "VS",
-    "name": "Valais",
-    "population": 341463
+    "name": "Wallis",
+    "population": 341463,
+    "adult-prices": "CHF 424.40<br><br>CHF 226.90<br><br>CHF 231.70<br><br>CHF 232.80",
+    "adult-monthly-savings": "194.30",
+    "adult-yearly-savings": "2'373.40",
+    "teen-prices": "CHF 341.90<br><br>CHF 165.20<br><br>CHF 167.10<br><br>CHF 172.40",
+    "teen-monthly-savings": "175.90",
+    "teen-yearly-savings": "2'113.10",
+    "kid-prices": "CHF 133.80<br><br>CHF 66.30<br><br>CHF 64.10<br><br>CHF 69.20",
+    "kid-monthly-savings": "65.30",
+    "kid-yearly-savings": "791.70"
   },
   {
     "code": "NE",
-    "name": "Neuchâtel",
-    "population": 177964
+    "name": "Neuenburg",
+    "population": 177964,
+    "adult-prices": "CHF 588.00<br><br>CHF 329.70<br><br>CHF 333.80<br><br>CHF 339.70",
+    "adult-monthly-savings": "256.10",
+    "adult-yearly-savings": "3'109.20",
+    "teen-prices": "CHF 485.80<br><br>CHF 248.10<br><br>CHF 250.00<br><br>CHF 250.30",
+    "teen-monthly-savings": "234.20",
+    "teen-yearly-savings": "2'863.80",
+    "kid-prices": "CHF 156.90<br><br>CHF 94.60<br><br>CHF 92.70<br><br>CHF 96.80",
+    "kid-monthly-savings": "61.50",
+    "kid-yearly-savings": "769.20"
   },
   {
     "code": "GE",
     "name": "Geneva",
-    "population": 495249
+    "population": 495249,
+    "adult-prices": "CHF 698.70<br><br>CHF 360.20<br><br>CHF 365.60<br><br>CHF 365.00",
+    "adult-monthly-savings": "337.30",
+    "adult-yearly-savings": "4'056.40",
+    "teen-prices": "CHF 613.90<br><br>CHF 270.00<br><br>CHF 274.70<br><br>CHF 282.80",
+    "teen-monthly-savings": "341.10",
+    "teen-yearly-savings": "4'124.00",
+    "kid-prices": "CHF 209.20<br><br>CHF 98.00<br><br>CHF 100.20<br><br>CHF 101.20",
+    "kid-monthly-savings": "106.70",
+    "kid-yearly-savings": "1'322.00"
   },
   {
     "code": "JU",
     "name": "Jura",
-    "population": 73290
+    "population": 73290,
+    "adult-prices": "CHF 668.30<br><br>CHF 322.00<br><br>CHF 325.10<br><br>CHF 337.20",
+    "adult-monthly-savings": "345.30",
+    "adult-yearly-savings": "4'153.70",
+    "teen-prices": "CHF 629.60<br><br>CHF 222.40<br><br>CHF 226.50<br><br>CHF 232.90",
+    "teen-monthly-savings": "405.30",
+    "teen-yearly-savings": "4'909.80",
+    "kid-prices": "CHF 198.10<br><br>CHF 89.90<br><br>CHF 90.30<br><br>CHF 90.10",
+    "kid-monthly-savings": "104.80",
+    "kid-yearly-savings": "1'294.60"
   }
 ]
