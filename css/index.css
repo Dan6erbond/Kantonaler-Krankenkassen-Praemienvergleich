@@ -91,7 +91,7 @@
 
 .cantons_mobile span {
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .cantons_mobile li {
@@ -101,7 +101,7 @@
   border: 3px solid rgb(163, 163, 163);
   border-radius: 5px;
   display: inline-block;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .cantons_mobile li:hover {
